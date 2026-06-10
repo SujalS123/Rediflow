@@ -1,0 +1,68 @@
+[
+  {
+    "routeId": "RF-R1",
+    "source": "Central Railway Station",
+    "destination": "Tech Park",
+    "legs": ["LEG-W1", "LEG-B1", "LEG-M1", "LEG-A1"],
+    "summary": "Walk → Bus → Metro → Auto",
+    "totalTimeMinutes": 54,
+    "totalFareRupees": 82,
+    "transferCount": 2,
+    "totalWalkingMeters": 650
+  },
+  {
+    "routeId": "RF-R2",
+    "source": "Central Railway Station",
+    "destination": "Tech Park",
+    "legs": ["LEG-W2", "LEG-T1", "LEG-B2", "LEG-W3"],
+    "summary": "Walk → Train → Bus → Walk",
+    "totalTimeMinutes": 68,
+    "totalFareRupees": 54,
+    "transferCount": 2,
+    "totalWalkingMeters": 1200
+  },
+  {
+    "routeId": "RF-R3",
+    "source": "Central Railway Station",
+    "destination": "Tech Park",
+    "legs": ["LEG-A2", "LEG-M2", "LEG-W4"],
+    "summary": "Auto → Metro → Walk",
+    "totalTimeMinutes": 42,
+    "totalFareRupees": 130,
+    "transferCount": 1,
+    "totalWalkingMeters": 300
+  },
+  {
+    "routeId": "RF-R4",
+    "source": "Residential Area North",
+    "destination": "University Campus",
+    "legs": ["LEG-W5", "LEG-B3", "LEG-W6"],
+    "summary": "Walk → Bus → Walk",
+    "totalTimeMinutes": 38,
+    "totalFareRupees": 20,
+    "transferCount": 0,
+    "totalWalkingMeters": 600
+  },
+  {
+    "routeId": "RF-R5",
+    "source": "Residential Area North",
+    "destination": "University Campus",
+    "legs": ["LEG-A3", "LEG-M3", "LEG-W7"],
+    "summary": "Auto → Metro → Walk",
+    "totalTimeMinutes": 60,
+    "totalFareRupees": 115,
+    "transferCount": 1,
+    "totalWalkingMeters": 900
+  },
+  {
+    "routeId": "RF-R6",
+    "source": "Residential Area North",
+    "destination": "University Campus",
+    "legs": ["LEG-W5", "LEG-A3", "LEG-W7"],
+    "summary": "Walk → Auto → Walk",
+    "totalTimeMinutes": 33,
+    "totalFareRupees": 70,
+    "transferCount": 0,
+    "totalWalkingMeters": 1100
+  }
+]

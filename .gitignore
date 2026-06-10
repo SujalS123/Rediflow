@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Ignore large video files to avoid GitHub size limits
+# If demo.mp4 is small enough (< 50MB), you can remove this line:
+*.mp4
